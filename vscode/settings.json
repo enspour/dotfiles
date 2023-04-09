@@ -1,23 +1,25 @@
 {
-    "editor.smoothScrolling": true,
     "workbench.list.smoothScrolling": true,
     "workbench.iconTheme": "material-icon-theme",
     
     "window.titleBarStyle": "custom",
     "window.zoomLevel": 1,
+
     "editor.fontFamily": "'Fira Code', 'Source code pro', 'Droid Sans Mono', 'monospace', monospace",
     "editor.fontSize": 14,
     "editor.fontWeight": "400",
     "editor.fontLigatures": true,
     "editor.wordWrap": "on",
+    "editor.smoothScrolling": true,
     
     "explorer.confirmDragAndDrop": false,
     "explorer.compactFolders": false,
-
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "typescript.updateImportsOnFileMove.enabled": "always",
     "explorer.confirmDelete": false,
     
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    
+    // cSpell extension
     "cSpell.userWords": [
         "autorun",
         "keyspace",
@@ -25,22 +27,30 @@
     ],
     "cSpell.language": "en,ru",
     
-    "editor.formatOnSave": true,
+    // Prettier extension
     "prettier.requireConfig": true,
+    
+    "editor.formatOnSave": true,
+    
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
 
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "[html]": {
+    "[javascriptreact]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "[json]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
+
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[typescriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[typescript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     }
 }

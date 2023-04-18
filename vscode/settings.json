@@ -23,7 +23,8 @@
     "cSpell.userWords": [
         "autorun",
         "keyspace",
-        "middlewares"
+        "middlewares",
+        "metatype"
     ],
     "cSpell.language": "en,ru",
     
@@ -31,26 +32,5 @@
     "prettier.requireConfig": true,
     
     "editor.formatOnSave": true,
-    
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-
-    "[json]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
-    },
-
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[javascriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-
-    "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[typescriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
 }

@@ -11,6 +11,10 @@
     "editor.fontLigatures": true,
     "editor.wordWrap": "on",
     "editor.smoothScrolling": true,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
     
     "explorer.confirmDragAndDrop": false,
     "explorer.compactFolders": false,
@@ -24,13 +28,15 @@
         "autorun",
         "keyspace",
         "middlewares",
-        "metatype"
+        "metatype",
+        "signup",
+        "timestamptz",
+        "typeorm"
     ],
     "cSpell.language": "en,ru",
     
     // Prettier extension
     "prettier.requireConfig": true,
-    
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
 }

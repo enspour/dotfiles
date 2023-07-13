@@ -31,7 +31,11 @@
         "metatype",
         "signup",
         "timestamptz",
-        "typeorm"
+        "typeorm",
+        "minio",
+        "unfollow",
+        "streamable",
+        "astro"
     ],
     "cSpell.language": "en,ru",
     

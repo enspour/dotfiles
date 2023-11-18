@@ -1,9 +1,10 @@
 {
     "workbench.list.smoothScrolling": true,
     "workbench.iconTheme": "material-icon-theme",
-    
+    "window.zoomLevel": 2,
     "window.titleBarStyle": "custom",
-    "window.zoomLevel": 1,
+    "window.dialogStyle": "custom",
+    "window.commandCenter": false,
 
     "editor.fontFamily": "'Fira Code', 'Source code pro', 'Droid Sans Mono', 'monospace', monospace",
     "editor.fontSize": 14,
@@ -11,10 +12,7 @@
     "editor.fontLigatures": true,
     "editor.wordWrap": "on",
     "editor.smoothScrolling": true,
-    "editor.formatOnSave": true,
-    "editor.codeActionsOnSave": {
-        "source.organizeImports": true
-    },
+    "editor.formatOnSave": false,
     
     "explorer.confirmDragAndDrop": false,
     "explorer.compactFolders": false,
@@ -25,22 +23,23 @@
     
     // cSpell extension
     "cSpell.userWords": [
+        "astro",
         "autorun",
+        "cssnano",
         "keyspace",
-        "middlewares",
         "metatype",
+        "middlewares",
+        "minio",
         "signup",
+        "streamable",
         "timestamptz",
         "typeorm",
-        "minio",
-        "unfollow",
-        "streamable",
-        "astro"
+        "unfollow"
     ],
     "cSpell.language": "en,ru",
     
     // Prettier extension
-    "prettier.requireConfig": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
 
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "prettier.requireConfig": true
 }

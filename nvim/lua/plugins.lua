@@ -24,8 +24,33 @@ return require('packer').startup(function(use)
     use 'wbthomason/packer.nvim'
     -- Plugins
     
+    -- Theme
     use { "catppuccin/nvim", as = "catppuccin" }
 
+    -- Mason 
+    use { "williamboman/mason.nvim", run = ":MasonUpdate" }
+    use { "williamboman/mason-lspconfig.nvim" }
+    
+    -- Collection of LSP configs
+    use { "neovim/nvim-lspconfig" }
+
+    -- Tool to automatically setup lspconfig for rust-analyzer
+    use { "simrat39/rust-tools.nvim" }
+
+    -- Completion framework:
+    use 'hrsh7th/nvim-cmp' 
+
+    -- LSP completion source:
+    use 'hrsh7th/cmp-nvim-lsp'
+
+    -- Useful completion sources:
+    use 'hrsh7th/cmp-nvim-lua'
+    use 'hrsh7th/cmp-nvim-lsp-signature-help'
+    use 'hrsh7th/cmp-vsnip'                             
+    use 'hrsh7th/cmp-path'                              
+    use 'hrsh7th/cmp-buffer'                            
+    use 'hrsh7th/vim-vsnip' 
+    
     -- Automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins
     if packer_bootstrap then

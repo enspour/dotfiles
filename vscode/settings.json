@@ -1,27 +1,36 @@
 {
     "workbench.list.smoothScrolling": true,
+    "workbench.tree.enableStickyScroll": false,
     "workbench.iconTheme": "material-icon-theme",
+    "workbench.editor.showTabs": "single",
+
     "window.zoomLevel": 2,
     "window.titleBarStyle": "custom",
     "window.dialogStyle": "custom",
-    "window.commandCenter": false,
+    "window.commandCenter": true,
 
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.fontFamily": "'Fira Code', 'Source code pro', 'Droid Sans Mono', 'monospace', monospace",
     "editor.fontSize": 14,
     "editor.fontWeight": "400",
     "editor.fontLigatures": true,
+    "editor.formatOnSave": true,
     "editor.wordWrap": "on",
     "editor.smoothScrolling": true,
-    "editor.formatOnSave": false,
-    
+    "editor.stickyScroll.enabled": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit",
+    },
+
     "explorer.confirmDragAndDrop": false,
-    "explorer.compactFolders": false,
     "explorer.confirmDelete": false,
+    "explorer.compactFolders": false,
     
     "javascript.updateImportsOnFileMove.enabled": "always",
     "typescript.updateImportsOnFileMove.enabled": "always",
     
     // cSpell extension
+    "cSpell.language": "en,ru",
     "cSpell.userWords": [
         "astro",
         "autorun",
@@ -34,12 +43,11 @@
         "streamable",
         "timestamptz",
         "typeorm",
-        "unfollow"
+        "unfollow",
+        "keycloak",
+        "resizer"
     ],
-    "cSpell.language": "en,ru",
     
     // Prettier extension
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-
-    "prettier.requireConfig": true
+    "prettier.requireConfig": true,
 }
